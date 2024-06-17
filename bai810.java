@@ -14,6 +14,7 @@ public class bai810 {
             } else 
                 map.put(tmp, 1);
         }
+        System.out.println(map.size());
         for(Map.Entry<String, Integer> x : map.entrySet()){
             System.out.println(x.getKey() + " " + x.getValue());
         }
