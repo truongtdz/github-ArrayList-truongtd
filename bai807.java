@@ -17,6 +17,7 @@ public class bai807 {
             System.out.printf("%.2f", x);
             System.out.print(" ");
         }
+        System.out.println("hello");
         sc.close();
     }
 }
